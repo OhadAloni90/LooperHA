@@ -1,0 +1,162 @@
+
+.btns {
+    padding:10px 0px;
+    cursor: pointer;
+    margin: 2%; 
+    flex: 1 1 30%; 
+    box-sizing: border-box; 
+    max-width: 150px;
+    height:150px;
+    justify-content: center;
+    border-radius: 30% !important;
+
+}
+
+.mat-button-toggle{
+    background: linear-gradient(145deg, #e87481, #c3616d);
+    box-shadow:  8x 8px 20px #b85c67, 
+             -8px -8px 20px #fa7c8b;
+        
+             
+}
+.mat-button-toggle-checked {
+    background: linear-gradient(145deg, #74e891, #74e891);
+    box-shadow:  10% 10% 20% #74e891, 
+                    -10% -10% -20% #74e891;
+}
+
+#groove {
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Drum_2257586.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+
+#guitar{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Guitar_4239133.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+#slosh{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Cymbals_2856717.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+#funk{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_funk_87940.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+#organ{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_organ_3928078.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+ 
+#darbuka{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Darbuka_421097.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+ 
+#drum{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Drum_2257586.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+#robot{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_Robot_2641857.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+ 
+#bass{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_bass_3148537.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+ 
+#clock{
+    ::ng-deep button {
+        background-image: url("/assets/img/noun_clock_4377689.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+    }
+ } 
+ 
+ @media (max-width : 375px) {
+
+    .btns {
+        max-width: 90px;
+        height:90px;
+        flex: 1 1 40%; 
+
+       }
+       #clock{
+        ::ng-deep button{ background-size: min(50px);
+        }
+        #bass{
+            ::ng-deep button{ background-size: min(50px);
+            }
+        
+        
+        }
+     }
+     #robot{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+     #darbuka{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+     #bass{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+     #organ{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+     #funk{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+     #drum{
+        ::ng-deep button {
+            background-size: min(50px);
+        }
+     } 
+    }
